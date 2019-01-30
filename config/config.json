@@ -1,4 +1,5 @@
 {
   "PORT": 8081,
-  "HOST": "0.0.0.0"
+  "HOST": "0.0.0.0",
+  "ENGINE_API_KEY": "service:postgres-day:2p5YYz-CY_kmCf_HYUJLIQ"
 }
