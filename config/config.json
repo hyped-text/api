@@ -1,3 +1,4 @@
 {
-  "app": "postgres-day"
+  "PORT": 8081,
+  "HOST": "0.0.0.0"
 }

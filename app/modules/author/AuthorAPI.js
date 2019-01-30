@@ -54,7 +54,7 @@ class AuthorAPI extends DataSource {
       target: id,
       content: comment,
       type: 'comment',
-    }).then(({ content: text, author, id }) => ({ text, author, id }));
+    }).then(action => ({ text: action.content, author: action.author, id: action.id }));
   }
 }
 
