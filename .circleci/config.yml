@@ -11,9 +11,9 @@ jobs:
       - run: npm install
       - run:
           name: Starting server
-          command: npm start
+          command: npm run start:dev
           background: true
-      - run: sleep 5
+      - run: sleep 10
 
       # This will authenticate using the `ENGINE_API_KEY` environment
       # variable. If the GraphQL server is available somewhere other than
