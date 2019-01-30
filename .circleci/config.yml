@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:10
+      - image: circleci/node:11
 
     steps:
       - checkout
@@ -13,7 +13,7 @@ jobs:
           name: Starting server
           command: npm run start:dev
           background: true
-      - run: sleep 10
+      - run: sleep 5
 
       # This will authenticate using the `ENGINE_API_KEY` environment
       # variable. If the GraphQL server is available somewhere other than
