@@ -26,6 +26,10 @@ type Article implements Likeable {
   likes: [Like]!
 }
 
+type Avatar {
+  medias: [String]!
+}
+
 union Topic = Article | Author | Comment
 
 type Comment implements Likeable {
