@@ -2,7 +2,7 @@ const config = require('config');
 const { createContainer, asFunction, asValue } = require('awilix');
 const httpServer = require('infra/http/server');
 const apollo = require('infra/graphql');
-const logger = require('infra/logger');
+const logger = require('hyped-logger');
 const database = require('infra/db');
 const jwt = require('infra/jwt');
 
